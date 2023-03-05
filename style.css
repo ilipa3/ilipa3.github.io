@@ -307,6 +307,3 @@ section img#taman
 #img4:checked ~ .m4 {
     margin-left: -300%;
 }
-.bg{
-  opacity: 0;
-}
