@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+    <!DOCTYPE html>
 </head>
+<head>
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Shantell+Sans&display=swap" rel="stylesheet">
+</head>
+<section>
+    <img src="bg.jpg" id="bg">
+    <h2 id="text">Eco-Friendly Village</h2>
+    <a href="https://www.canva.com/design/DAFcNIMeF98/z0enRl63bINnqOoCu0Yylw/edit?analyticsCorrelationId=e6fc0784-6aaf-4ac6-bada-a30599ca319a" id="btn">Explore</a>
+    <img src="taman.png" id="taman">
+</section>
+<script>
+    let bg = document.getElementById('bg');
+    let taman = document.getElementById('taman');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+
+    window.addEventListener('scroll', function () {
+        let value = window.scrollY;
+        text.style.marginRight = value * 10 + 'px';
+        btn.style.marginTop = value * 4 + 'px';
+    })
+</script>
+<header>
+    <a href="#" class="Team 3"></a></font>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="abstract.html">Abstract</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="bab2.html">Theoretical</a></li>
+        <li><a href="bab3.html">Methodology</a></li>
+        <li><a href="bab4.html">Discussion</a></li>
+        <li><a href="bab5 kesimpulan.html">Summary</a></li>
+        <li><a href="saran.html">Advice</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</header>
 <body>
+    <div class="sec">
   <div class="container">
     <div class="heading">
-      <h3>Photo <span>Gallery</span></h3>
-    </div>
-    <div class="box">
-      <div class="dream">
-        <img src="1.jpg">
-         <img src="2.jpg">
-          <img src="3.jpg">
-           <img src="4.jpg">
-            <img src="5.jpg">
-      </div>
-        <div class="dream">
-        <img src="6.jpg">
-         <img src="7.jpg">
-          <img src="8.jpg">
-           <img src="9.jpg">
-            <img src="10.jpg">
-        </div>
-        <div class="dream">
-        <img src="11.jpg">
-         <img src="12.jpg">
-          <img src="13.jpg">
-           <img src="14.jpg">
-            <img src="15.jpg">
-      </div>
-    </div>
-    <div class="btn">
-      <a href="#">More</a>
-    </div>
-  </div>
+<h3>Photo Gallery</h3>
+    
 </body>
 </html>

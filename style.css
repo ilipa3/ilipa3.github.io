@@ -324,6 +324,7 @@ section img#taman
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: 3px solid #222;
+  align-items: center;
 }
 .container .heading h3 span{
   font-weight: 100;
